@@ -8,7 +8,7 @@ The site emphasizes clean structure, responsive layouts, and accessibility-first
 
 ## 🌐 Live Site
 **GitHub Pages:**  
-https://jessrschwartz.github.io/
+https://jessrschwartz.github.io/portfolio/
 
 ---
 
