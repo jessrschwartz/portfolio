@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Home | Jessica Schwartz Portfolio</title>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&amp;family=Syne:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+
+<!-- Styles -->
+<link href="style.css" rel="stylesheet"/>
+
+<!-- Favicon -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png">
+</head>
+
+<body>
+<a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+<header class="wf-header" role="banner">
+  <div class="wf-logo">
+    <span>Jessica Schwartz</span>
+  </div>
+  <nav aria-label="Main navigation" class="wf-nav">
+    <ul>
+      <li><a aria-current="page" href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="wcag2.html">WCAG 2</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="wf-main" id="main-content" role="main">
+
+<!-- HERO -->
+<section class="wf-section wf-hero">
+  <div class="wf-box wf-hero-text">
+    <h1>Accessible Web Design &amp; Front-End Development</h1>
+    <p>
+      Hi, I’m Jessica Schwartz — a web development student at San Diego Mesa College.
+      I focus on building clean, inclusive, and user-centered digital experiences,
+      with accessibility considered from the very first line of code.
+    </p>
+
+    <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+      <a class="wf-button" href="projects.html">Explore Projects</a>
+      <a class="wf-button wf-button-secondary"
+         href="https://jessrschwartz.github.io/seekyourfortune/"
+         rel="noopener noreferrer"
+         target="_blank">
+        Try a Live Demo
+      </a>
+    </div>
+  </div>
+
+  <div class="wf-box wf-hero-image">
+    <span>Design • Code • Accessibility</span>
+  </div>
+</section>
+
+<!-- FEATURED PROJECTS -->
+<section class="wf-section">
+  <h2>Featured Work</h2>
+
+  <div class="wf-grid">
+
+    <!-- Pacific Trails – ROBUST (gold / orange) -->
+    <article class="wf-box wf-card wf-pour-robust">
+      <div class="wf-card-media wf-media-webd152">
+        <span>HTML / CSS</span>
+      </div>
+      <h3>Pacific Trails Resort</h3>
+      <p>
+        A multi-page website emphasizing semantic structure, navigation clarity,
+        and accessibility-friendly HTML/CSS.
+      </p>
+      <div class="wf-card-links">
+        <a class="wf-button-small" href="projects.html">View project details</a>
+      </div>
+    </article>
+
+    <!-- Seek Your Fortune – PERCEIVABLE (blue) -->
+    <article class="wf-box wf-card wf-pour-perceivable">
+      <div class="wf-card-media wf-media-js">
+        <span>JavaScript</span>
+      </div>
+      <h3>Seek Your Fortune</h3>
+      <p>
+        An interactive JavaScript project with dynamic messaging,
+        playful UX, and accessible UI patterns.
+      </p>
+      <div class="wf-card-links">
+        <a class="wf-button-small" href="projects.html">View project details</a>
+      </div>
+    </article>
+
+    <!-- WCAG 2 – UNDERSTANDABLE (green) -->
+    <article class="wf-box wf-card wf-pour-understandable">
+      <div class="wf-card-media wf-media-wcag">
+        <span>UX / WCAG</span>
+      </div>
+      <h3>WCAG 2 Feature Demos</h3>
+      <p>
+        A breakdown of WCAG 2 principles with real, in-browser accessibility
+        demonstrations including voice input.
+      </p>
+      <div class="wf-card-links">
+        <a class="wf-button-small" href="projects.html">View project details</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- CALLOUT -->
+<section class="wf-section wf-callout">
+  <div class="wf-box">
+    <h2>Designing With Intention</h2>
+    <p>
+      I believe accessibility isn’t a constraint — it’s a design advantage.
+      When experiences are built to work for everyone, they’re clearer,
+      stronger, and more human.
+    </p>
+    <a class="wf-button wf-button-secondary" href="contact.html">Let’s Connect</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="wf-footer" role="contentinfo">
+  <p>© 2025 Jessica Schwartz • Web Development Student &amp; UX Design Student</p>
+</footer>
+
+<!-- jQuery + shared JS -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="site.js"></script>
+</body>
+</html>

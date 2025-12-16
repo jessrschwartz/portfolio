@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WCAG 2 | Jessica Schwartz Portfolio</title>
+
+  <!-- Fonts: Romantic Cyber + Soft Minimal -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Syne:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+  <header class="wf-header" role="banner">
+    <div class="wf-logo">
+      <span>Jessica Schwartz</span>
+    </div>
+
+    <nav class="wf-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="wcag2.html" aria-current="page">WCAG 2</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" class="wf-main" role="main">
+
+    <!-- HERO SECTION -->
+    <section class="wf-section">
+      <h1>Web Content Accessibility Guidelines (WCAG 2)</h1>
+
+      <div class="wf-box">
+        <h2>What is WCAG 2?</h2>
+        <p>
+          The <strong>Web Content Accessibility Guidelines (WCAG) 2</strong> are a set of internationally
+          recognized standards developed by the World Wide Web Consortium (W3C) to ensure that web content
+          is accessible to everyone, including people with disabilities. These guidelines provide a framework
+          for creating websites that are perceivable, operable, understandable, and robust—the four core
+          principles often referred to as <strong>POUR</strong>.
+        </p>
+        <p>
+          WCAG 2 defines three levels of conformance: <strong>Level A</strong> (minimum accessibility),
+          <strong>Level AA</strong> (addresses the most common barriers), and <strong>Level AAA</strong>
+          (the highest level of accessibility). Most organizations and legal requirements target Level AA
+          compliance as the standard for accessible web design.
+        </p>
+      </div>
+    </section>
+
+    <!-- FOUR PRINCIPLES -->
+<section class="wf-section">
+  <h2>The Four Principles of WCAG 2</h2>
+
+  <div class="wf-grid wf-grid-featured">
+
+    <!-- Perceivable -->
+    <article class="wf-box wf-card wf-pour-perceivable">
+      <div class="wf-card-media">
+        <span>Perceivable</span>
+      </div>
+      <h3>Perceivable</h3>
+      <p>
+        Information and user interface components must be presentable to users
+        in ways they can perceive. This includes providing text alternatives for
+        images, captions for videos, and sufficient color contrast.
+      </p>
+    </article>
+
+    <!-- Operable -->
+    <article class="wf-box wf-card wf-pour-operable">
+      <div class="wf-card-media">
+        <span>Operable</span>
+      </div>
+      <h3>Operable</h3>
+      <p>
+        User interface components and navigation must be operable by all users.
+        This means functionality must be accessible via keyboard, users have
+        enough time to interact with content, and interactions avoid causing
+        seizures or physical reactions.
+      </p>
+    </article>
+
+    <!-- Understandable -->
+    <article class="wf-box wf-card wf-pour-understandable">
+      <div class="wf-card-media">
+        <span>Understandable</span>
+      </div>
+      <h3>Understandable</h3>
+      <p>
+        Information and operation of the user interface must be understandable.
+        Content should be readable, navigation predictable, and users should be
+        helped to avoid and correct mistakes.
+      </p>
+    </article>
+
+    <!-- Robust -->
+    <article class="wf-box wf-card wf-pour-robust">
+      <div class="wf-card-media">
+        <span>Robust</span>
+      </div>
+      <h3>Robust</h3>
+      <p>
+        Content must be robust enough to be interpreted reliably by a wide range
+        of user agents, including assistive technologies. This requires valid,
+        semantic HTML and adherence to web standards.
+      </p>
+    </article>
+
+  </div>
+</section>
+
+    <!-- HOW I APPLY WCAG -->
+    <section class="wf-section">
+      <h2>How I Apply WCAG 2 in My Work</h2>
+
+      <div class="wf-box">
+        <p>
+          Accessibility isn't an afterthought in my design process—it's built into every decision I make
+          from the very beginning. Here's how I incorporate WCAG 2 guidelines into my web development work:
+        </p>
+
+        <ul class="wf-list">
+          <li>
+            <strong>Semantic HTML:</strong> I use proper heading hierarchies, landmarks (<code>&lt;header&gt;</code>,
+            <code>&lt;main&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;footer&gt;</code>), and meaningful
+            element choices to create a logical document structure that assistive technologies can navigate.
+          </li>
+          <li>
+            <strong>Keyboard Navigation:</strong> All interactive elements on my websites are fully accessible
+            via keyboard. I ensure visible focus indicators and logical tab order throughout the interface.
+          </li>
+          <li>
+            <strong>Color Contrast:</strong> I carefully select color palettes that meet WCAG AA contrast ratios
+            (at minimum 4.5:1 for normal text and 3:1 for large text) to ensure readability for users with
+            low vision or color blindness.
+          </li>
+          <li>
+            <strong>Alternative Text:</strong> Every meaningful image includes descriptive alt text, while
+            decorative images are marked appropriately so screen readers can skip them.
+          </li>
+          <li>
+            <strong>Skip Links:</strong> I include "Skip to Main Content" links at the top of every page,
+            allowing keyboard and screen reader users to bypass repetitive navigation.
+          </li>
+          <li>
+            <strong>Form Accessibility:</strong> All form inputs have associated labels, clear error messages,
+            and instructions that help users complete forms successfully.
+          </li>
+          <li>
+            <strong>Responsive Design:</strong> My layouts adapt to different screen sizes and zoom levels,
+            ensuring content remains accessible regardless of how users view the page.
+          </li>
+          <li>
+            <strong>ARIA When Needed:</strong> I use ARIA thoughtfully to enhance accessibility for dynamic content
+            and custom components, while prioritizing native HTML elements whenever possible.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- VOICE INPUT DEMO -->
+    <section class="wf-section">
+      <h2>Voice Input Demo</h2>
+
+      <div class="wf-box">
+        <p>
+          Voice input is an important accessibility feature that helps users who have difficulty typing,
+          including those with motor impairments, repetitive strain injuries, or temporary disabilities.
+          The Web Speech API allows websites to accept voice input directly in the browser.
+        </p>
+        <p>
+          <strong>Try it out:</strong> Click the microphone button and speak. Your words will appear in the text box below.
+        </p>
+
+        <div class="voice-input-container">
+          <label for="voice-input" class="voice-input-label">Your Message:</label>
+
+          <div class="voice-input-wrapper">
+            <textarea
+              id="voice-input"
+              class="voice-input-field"
+              placeholder="Click the microphone button and speak..."
+              rows="4"
+              aria-describedby="voice-status"
+            ></textarea>
+
+            <!-- Wired to site.js -->
+            <button
+              type="button"
+              class="voice-btn js-voice-btn"
+              data-target="#voice-input"
+              data-status="#voice-status"
+              aria-label="Start voice recording"
+              title="Click to start voice recording"
+            >
+              <svg class="mic-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm-1-9c0-.55.45-1 1-1s1 .45 1 1v6c0 .55-.45 1-1 1s-1-.45-1-1V5z"/>
+                <path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z"/>
+              </svg>
+              <span class="btn-text">Record</span>
+            </button>
+          </div>
+
+          <p id="voice-status" class="voice-status" aria-live="polite"></p>
+        </div>
+
+        <p class="voice-note">
+          <strong>Note:</strong> This feature uses the Web Speech API, which is supported in most modern browsers
+          (Chrome, Edge, Safari). You may need to grant microphone permission when prompted.
+        </p>
+      </div>
+    </section>
+
+    <!-- CALLOUT -->
+    <section class="wf-section wf-callout">
+      <div class="wf-box">
+        <h2>Accessibility Benefits Everyone</h2>
+        <p>
+          While WCAG 2 guidelines are essential for users with disabilities, accessible design creates a better
+          experience for everyone. Clear navigation helps all users find information quickly. Good color contrast
+          improves readability in bright sunlight. Keyboard accessibility benefits power users who prefer
+          keyboard shortcuts. When we design for accessibility, we design for humanity.
+        </p>
+        <a class="wf-button wf-button-secondary" href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank" rel="noopener noreferrer">
+          Explore WCAG 2 Quick Reference
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="wf-footer" role="contentinfo">
+    <p>© 2025 Jessica Schwartz • Web Development Student &amp; UX Design Student</p>
+  </footer>
+
+  <!-- jQuery + shared JS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>

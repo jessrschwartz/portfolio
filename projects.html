@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Projects | Jessica Schwartz Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&amp;family=Syne:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+
+  <!-- Styles -->
+  <link href="style.css" rel="stylesheet"/>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" type="image/png">
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+  <header class="wf-header" role="banner">
+    <div class="wf-logo">
+      <span>Jessica Schwartz</span>
+    </div>
+    <nav aria-label="Main navigation" class="wf-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a aria-current="page" href="projects.html">Projects</a></li>
+        <li><a href="wcag2.html">WCAG 2</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wf-main" id="main-content" role="main">
+    <section class="wf-section">
+      <h1>Projects</h1>
+      <p>
+        A selection of coursework and portfolio projects focused on clean structure,
+        accessibility, and thoughtful user experience.
+      </p>
+
+      <div class="wf-grid wf-grid-featured">
+
+        <!-- 1) META / PORTFOLIO — OPERABLE (purple) -->
+        <article class="wf-box wf-card wf-pour-operable">
+          <div class="wf-card-media wf-media-meta">
+            <span>Meta</span>
+          </div>
+          <h3>This Portfolio Site</h3>
+          <p>
+            The site you’re currently viewing. Built as a living project to demonstrate
+            accessible structure, reusable JavaScript, and intentional UX decisions.
+          </p>
+          <p class="wf-meta"><strong>Focus:</strong> Architecture, Accessibility, Polish</p>
+          <div class="wf-card-links">
+            <a class="wf-button-small" href="index.html">
+              Explore the site
+            </a>
+          </div>
+        </article>
+
+        <!-- 2) SEEK YOUR FORTUNE — PERCEIVABLE (blue) -->
+        <article class="wf-box wf-card wf-pour-perceivable">
+          <div class="wf-card-media wf-media-js">
+            <span>JavaScript</span>
+          </div>
+          <h3>Seek Your Fortune</h3>
+          <p>
+            An interactive fortune generator that adapts its messaging based on user
+            interaction, with a playful but accessible UI.
+          </p>
+          <p class="wf-meta"><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+          <div class="wf-card-links">
+            <a class="wf-button-small primary"
+               href="https://jessrschwartz.github.io/seekyourfortune/"
+               rel="noopener noreferrer"
+               target="_blank">
+              Live Demo
+            </a>
+            <a class="wf-button-small"
+               href="https://github.com/jessrschwartz/seekyourfortune.git"
+               rel="noopener noreferrer"
+               target="_blank">
+              GitHub Repo
+            </a>
+          </div>
+        </article>
+
+        <!-- 3) PACIFIC TRAILS — ROBUST (gold/orange) -->
+        <article class="wf-box wf-card wf-pour-robust">
+          <div class="wf-card-media wf-media-webd152">
+            <span>HTML / CSS</span>
+          </div>
+          <h3>Pacific Trails Resort Website</h3>
+          <p>
+            A multi-page resort site built for my Web Development course, emphasizing
+            semantic HTML, layout structure, and accessible navigation.
+          </p>
+          <p class="wf-meta"><strong>Tools:</strong> HTML, CSS</p>
+          <div class="wf-card-links">
+            <a class="wf-button-small primary"
+               href="https://jessrschwartz.github.io/webd152/final/pacifictrailsresort/index.html"
+               rel="noopener noreferrer"
+               target="_blank">
+              Live Demo
+            </a>
+            <a class="wf-button-small"
+               href="https://github.com/jessrschwartz/webd152.git"
+               rel="noopener noreferrer"
+               target="_blank">
+              GitHub Repo
+            </a>
+          </div>
+        </article>
+
+        <!-- 4) WCAG — UNDERSTANDABLE (green) -->
+        <article class="wf-box wf-card wf-pour-understandable">
+          <div class="wf-card-media wf-media-wcag">
+            <span>UX / WCAG</span>
+          </div>
+          <h3>WCAG 2 Feature Demos</h3>
+          <p>
+            A reference page explaining WCAG 2 principles and demonstrating
+            accessibility-forward interaction design, including voice input.
+          </p>
+          <p class="wf-meta"><strong>Focus:</strong> Accessibility, UX</p>
+          <div class="wf-card-links">
+            <a class="wf-button-small" href="wcag2.html">
+              View Page
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="wf-footer" role="contentinfo">
+    <p>© 2025 Jessica Schwartz</p>
+  </footer>
+
+  <!-- jQuery + shared JS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>
