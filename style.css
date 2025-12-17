@@ -536,6 +536,16 @@ h3 { font-size: 1.1rem; line-height: 1.25; }
   color: var(--color-text-muted);
 }
 
+/* === Voice status: hidden unless active === */
+.voice-status {
+  display: none;
+}
+
+.voice-status.listening,
+.voice-status.error {
+  display: inline-block;
+}
+
 /* ================================
    Responsive
 ================================ */
