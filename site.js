@@ -1,15 +1,5 @@
 /* site.js - shared behavior across the portfolio */
 (function () {
-  // -----------------------------
-  // 1) Contact Form (Prototype)
-  // -----------------------------
-  const contactForm = document.getElementById("contact-form");
-  if (contactForm) {
-    contactForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-      alert("Prototype Only: In the final site, this form will send a message or trigger an email workflow.");
-    });
-  }
 
   // -----------------------------
   // 2) Voice-to-Text (Reusable)
@@ -150,8 +140,7 @@
   }
 
   // -----------------------------
-  // 3) jQuery zone (WEBD164)
-  // Paste your accordion/collapsible + other jQuery features here.
+  // 3) jQuery zone
   // -----------------------------
   if (window.jQuery) {
     $(function () {
