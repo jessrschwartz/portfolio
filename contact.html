@@ -46,6 +46,8 @@
               class="voice-input-field"
               placeholder="Your name"
               aria-describedby="voice-status-name"
+              autocomplete="name"
+              required
             >
 
             <button
@@ -78,6 +80,8 @@
               class="voice-input-field"
               placeholder="Your email"
               aria-describedby="voice-status-email"
+              autocomplete="email"
+              required
             >
 
             <button
@@ -110,7 +114,10 @@
               class="voice-input-field"
               placeholder="Type your message… or click Record and speak."
               aria-describedby="voice-status-message"
-            ></textarea>
+              autocomplete="off"
+               required
+            >
+          </textarea>
 
             <button
               type="button"
@@ -137,11 +144,10 @@
   </main>
 
   <footer class="wf-footer" role="contentinfo">
-    <p>© 2025 Jessica Schwartz • Web Development Student & UX Design Student</p>
+    <p>© 2025 Jessica Schwartz • Web Development Student &amp; UX Design Student</p>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="site.js"></script>
 </body>
-
 </html>
